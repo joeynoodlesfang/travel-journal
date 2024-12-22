@@ -4,12 +4,14 @@ html, body {
     font-family: 'Inter', sans-serif;
 }
 
-.header-container{
+/* header */
+.header-container {
     background-color: #F55F5A;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 55px;
+    margin-bottom: 45px;
 }
 
 .header-container > p {
@@ -20,4 +22,60 @@ html, body {
 
 .header-container > img {
     width: 24px;
+}
+
+/* each entry */
+.entry-container {
+    display: flex;
+    margin: 17px 40px;
+}
+
+.entry-mainImg-container {
+    /* margin: 19px 0px; */
+}
+
+.entry-main-container {
+    /* width: 470px; */
+    height: 168px;
+    margin: 19px;
+}
+
+.entry-main-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 7px;
+    height:14px;
+}
+
+.entry-main-header > img {
+    width: 7px;
+    margin-right: 4px;
+}
+.entry-main-header > h1 {
+    font-size: 10.24px;
+    color: #2B283A;
+    margin-right: 12px;
+}
+.entry-main-header > a {
+    font-size: 10.24px;
+    color: #918E9B;
+
+}
+
+.entry-main-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+
+.entry-main-date {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.entry-main-content {
+    font-size: 10px;
 }
