@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     background-color: #FFFFFF;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 /* header */
@@ -17,7 +18,7 @@ header {
 header > p {
     color: #FFFFFF;
     margin-left: 7px;
-    font-size: 14.5px;
+    font-size: 0.9rem;
 }
 
 header > img {
@@ -25,57 +26,65 @@ header > img {
 }
 
 /* each entry */
-.entry-container {
+article.journal-entry {
     display: flex;
     margin: 17px 40px;
 }
 
-.entry-mainImg-container {
+article.journal-entry .image-container {
     /* margin: 19px 0px; */
 }
 
-.entry-main-container {
+article.journal-entry .info-container {
     /* width: 470px; */
     height: 168px;
     margin: 19px;
 }
 
-.entry-main-header {
+article.journal-entry .info-header {
     display: flex;
     align-items: center;
     justify-content: left;
     margin-bottom: 7px;
-    height:14px;
+    height: 14px;
 }
 
-.entry-main-header > img {
+article.journal-entry .info-header > img {
     width: 7px;
     margin-right: 4px;
 }
-.entry-main-header > h1 {
-    font-size: 10.24px;
+article.journal-entry .info-header .info-header-country {
+    text-transform: uppercase;
+    font-size: 0.7rem;
     color: #2B283A;
     margin-right: 12px;
 }
-.entry-main-header > a {
-    font-size: 10.24px;
+article.journal-entry .info-header > a {
+    font-size: 0.7rem;
     color: #918E9B;
-
 }
 
-.entry-main-title {
+article.journal-entry .info-header > a:visited {
+    color: #918E9B;
+}
+
+article.journal-entry .info-title {
     font-weight: bold;
     font-size: 25px;
-    margin-top: 0px;
+    margin-top: 7px;
     margin-bottom: 17px;
 }
 
-.entry-main-date {
+article.journal-entry .info-date {
     font-weight: bold;
-    font-size: 25px;
     margin-bottom: 9px;
 }
 
-.entry-main-content {
-    font-size: 10px;
+article.journal-entry .info-content {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
