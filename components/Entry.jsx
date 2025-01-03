@@ -1,6 +1,4 @@
 import Marker from "/assets/img/Marker.svg"
-import MountFiji from "/assets/img/Japan/MountFuji.png"
-
 
 export default function Entry (props) {
     return (
@@ -12,7 +10,7 @@ export default function Entry (props) {
                 <div className="info-container">
                     <div className="info-header">
                         <img src={Marker} alt="Marker"/>
-                        <h1 className="info-header-country">{props.countryName}</h1>
+                        <h1 className="info-header-country">{props.areaName}</h1>
                         <a href={props.locationMapLink} 
                             target="_blank" rel="noopener noreferrer">View on Google Maps</a>
                     </div>

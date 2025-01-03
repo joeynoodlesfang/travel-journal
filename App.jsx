@@ -1,60 +1,41 @@
 import Header from "/components/Header.jsx"
 import Entry from "/components/Entry.jsx"
-import MountFujiJPG from "/assets/img/Japan/MountFuji.jpg"
-import OperaJPG from "/assets/img/Australia/Sydney Opera House.jpg"
-import GeirangerfjordJPG from "/assets/img/Norway/1920px-Geirangerfjord_.jpg"
+import SurreyXmasTreeLight from "/assets/img/Vancouver/241123 Surrey Christmas Tree Lighting.jpg"
+import UWJPG241013 from "/assets/img/Seattle/University of Washington.jpg"
+import Thrangu241117 from "/assets/img/Vancouver/241117 Richmond Thrangu Monastery.jpg"
 
 export default function App () {
     return (
         <>
             <Header />
             <Entry 
-                imgSrc={MountFujiJPG}
-                imgAlt="Mount Fuji"
-                countryName="Japan"
-                locationMapLink="https://www.google.com/maps/place/Mount+Fuji/
-                            // @35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1
-                            // s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.360
-                            // 6255!4d138.7273634!16zL20vMGNrczA?entry=ttu"
-                travelDate="12 Jan, 2023 - 24 Jan, 2023"
-                infoContent="Mount Fuji is the tallest mountain in Japan, 
-                            standing at 3,776 meters (12,380 feet). Mount Fuji 
-                            is the single most popular tourist site in Japan, 
-                            for both Japanese and foreign tourists."
+                imgSrc={SurreyXmasTreeLight}
+                imgAlt="Surrey Christmas Tree Lighting"
+                areaName="Surrey, BC"
+                locationMapLink="https://www.google.com/maps/place/Surrey+Central/@49.1894304,-122.8498537,16z/data=!3m1!4b1!4m6!3m5!1s0x5485d82b29464427:0x283cff04830abc17!8m2!3d49.1894304!4d-122.8483981!16s%2Fm%2F04zg7rc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                travelDate="23 Nov, 2024 - 24 Nov, 2024"
+                infoContent="Come and see the christmas tree lighting! Lots of people, rides, concerts, and treats to eat! And of course, the beautiful christmas tree!"
             />
             <Entry 
-                imgSrc={OperaJPG}
-                imgAlt="Sydney Opera House"
-                countryName="Australia"
-                locationMapLink="https://www.google.com/maps/place/Sydney+Opera
-                            // +House/@-33.8567844,151.2127164,17z/data=!3m1!4b1!4m6!
-                            // 3m5!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-
-                            // 33.8567844!4d151.2152967!16zL20vMDZfbm0?entry=ttu&g_e
-                            // p=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-                travelDate="27 May, 2023 - 8 Jun, 2023"
-                infoContent="The Sydney Opera House is a multi-venue performing 
-                            arts centre in Sydney. Located on the banks of the 
-                            Sydney Harbour, it is often regarded as one of the 
-                            20th century's most famous and distinctive buildings."
+                imgSrc={Thrangu241117}
+                imgAlt="Richmond Thrangu Monastery"
+                areaName="Richmond, BC"
+                locationMapLink="https://www.google.com/maps/place/Thrangu+Monastery/@49.1541312,-123.0932331,17z/data=!3m1!4b1!4m6!3m5!1s0x5485d76de5c1a127:0x3bdcddadb9e2b811!8m2!3d49.1541312!4d-123.0906582!16s%2Fm%2F0cmbbxp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                travelDate="17 Nov, 2024"
+                infoContent="Cool place with a beautiful buddha."
             />
             <Entry 
-                imgSrc={GeirangerfjordJPG}
-                imgAlt="Geirangerfjord"
-                countryName="Norway"
-                locationMapLink="https://www.google.com/maps/place/Geirangerfjord/
-                            // @62.1048241,6.9920669,12z/data=!3m1!4b1!4m6!3m5!
-                            // 1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.
-                            // 101506!4d7.0940817!16zL20vMDZ4eXFi?entry=ttu&g_ep=
-                            // EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-                travelDate="01 Oct, 2024 - 18 Nov, 2024"
-                infoContent="The Geiranger Fjord is a fjord in the Sunnmøre 
-                            region of Møre og Romsdal county, Norway. It is 
-                            located entirely in the Stranda Municipality."
+                imgSrc={UWJPG241013}
+                imgAlt="University of Washington"
+                areaName="Seattle, WA"
+                locationMapLink="https://www.google.com/maps/place/University+of+Washington,+Seattle,+WA,+USA/@47.6543747,-122.3134106,15z/data=!3m1!4b1!4m6!3m5!1s0x54901492f492ee53:0xc49de620ee4a0b02!8m2!3d47.6516448!4d-122.3081762!16s%2Fg%2F11vr9rvds7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                travelDate="13 Oct, 2024 - 14 Oct, 2024"
+                infoContent="A beautiful place of marvel that reminds travellers of the renaissance, with stunning buildings shaped like castles, and libraries shaped like churches. GO HUSKIES!"
             />
             {/* <Entry 
                 imgSrc={}
                 imgAlt=""
-                countryName=""
+                areaName=""
                 locationMapLink=""
                 travelDate=""
                 infoContent=""
