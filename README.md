@@ -1,3 +1,3 @@
 # Travel Journal
 
-My travel journal website. WIP. Wish me luck!
+WIP. [view](https://joeynoodlesfang.github.io/travel-journal/)
