@@ -32,7 +32,17 @@ article.journal-entry {
 }
 
 article.journal-entry .image-container {
-    /* margin: 19px 0px; */
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+article.journal-entry .image-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 article.journal-entry .info-container {
