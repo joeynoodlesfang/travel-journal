@@ -30,7 +30,7 @@ export default function App () {
                 areaName="Seattle, WA"
                 locationMapLink="https://www.google.com/maps/place/University+of+Washington,+Seattle,+WA,+USA/@47.6543747,-122.3134106,15z/data=!3m1!4b1!4m6!3m5!1s0x54901492f492ee53:0xc49de620ee4a0b02!8m2!3d47.6516448!4d-122.3081762!16s%2Fg%2F11vr9rvds7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                 travelDate="13 Oct, 2024 - 14 Oct, 2024"
-                infoContent="A beautiful place of marvel that reminds travellers of the renaissance, with stunning buildings shaped like castles, and libraries shaped like churches. GO HUSKIES!"
+                infoContent="A beautiful place of marvel that reminds travellers of the Renaissance, with stunning buildings shaped like castles, and libraries shaped like churches. GO HUSKIES!"
             />
             {/* <Entry 
                 imgSrc={}
