@@ -40,11 +40,11 @@ function parseDuration(travelDuration) {
 
 export default function Entry (props) {
     let durationStr = parseDuration(props.travelDuration);
-    
+    // console.log(props)
     return (
         <article className="journal-entry">
                 <div className="image-container">
-                    <img src={props.imgSrc} alt={props.imgAlt} />
+                    <img src={props.img.src} alt={props.img.alt} />
                 </div>
 
                 <div className="info-container">

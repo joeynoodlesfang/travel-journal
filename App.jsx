@@ -5,10 +5,15 @@ import UWJPG241013 from "/assets/img/Seattle/University of Washington.jpg"
 import Thrangu241117 from "/assets/img/Vancouver/241117 Richmond Thrangu Monastery.jpg"
 
 export default function App () {
+    console.log("start App")
     return (
         <>
             <Header />
             <Entry 
+                img={{
+                    src: SurreyXmasTreeLight,
+                    alt: "Surrey Christmas Tree Lighting"
+                }}
                 imgSrc={SurreyXmasTreeLight}
                 imgAlt="Surrey Christmas Tree Lighting"
                 areaName="Surrey, BC"
@@ -19,6 +24,10 @@ export default function App () {
                 infoContent="Come and see the christmas tree lighting! Lots of people, rides, concerts, and treats to eat! And of course, the beautiful christmas tree!"
             />
             <Entry 
+                img={{
+                    src: Thrangu241117,
+                    alt: "Richmond Thrangu Monastery"
+                }}
                 imgSrc={Thrangu241117}
                 imgAlt="Richmond Thrangu Monastery"
                 areaName="Richmond, BC"
@@ -29,6 +38,10 @@ export default function App () {
                 infoContent="Cool place with a beautiful buddha."
             />
             <Entry 
+                img={{
+                    src: UWJPG241013,
+                    alt: "University of Washington"
+                }}
                 imgSrc={UWJPG241013}
                 imgAlt="University of Washington"
                 areaName="Seattle, WA"
